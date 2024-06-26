@@ -10,7 +10,13 @@
 .anchor span:not(.spacer) {
   display: block;
 }
-
+.gyph {
+  display: grid;
+  margin: auto;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
 .spacer {
   display: none;
   padding: 0 15px;

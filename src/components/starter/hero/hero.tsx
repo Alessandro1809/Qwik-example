@@ -7,11 +7,12 @@ export default component$(() => {
     <div class={["container", styles.hero]}>
       <ImgThunder class={styles["hero-image"]} alt="Image thunder" />
       <h1>
-        So <span class="highlight">fantastic</span>
+        App basica con <span class="highlight">Qwik</span>
         <br />
-        to have <span class="highlight">you</span> here
+        vamo a <span class="highlight"> verlo. </span> 
       </h1>
-      <p>Have fun building your App with Qwik.</p>
+     
+     
       <div class={styles["button-group"]}>
         <button
           onClick$={async () => {
@@ -67,15 +68,9 @@ export default component$(() => {
             setTimeout(shoot, 400);
           }}
         >
-          Time to celebrate
+          SIUUUU
         </button>
-        <a
-          href="https://qwik.dev/docs"
-          target="_blank"
-          class="button button-dark"
-        >
-          Explore the docs
-        </a>
+        
       </div>
     </div>
   );
